@@ -1,0 +1,38 @@
+#left {
+    position: fixed;
+    font-size: 13px;
+    top: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#left a {
+    padding-left: 15px;
+    text-decoration: none;
+    opacity: .75;
+}
+
+a:visited { 
+    color: inherit;
+}
+
+#left a:hover {
+    text-decoration-line: underline;
+}
+
+#left-hptl {
+    margin-top: 7px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+    width: 100%;
+    min-width: 980px;
+    position: fixed;
+}
