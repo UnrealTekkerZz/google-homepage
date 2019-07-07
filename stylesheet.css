@@ -111,7 +111,7 @@ div.main {
 #search-form {
     margin: auto;
     border: none;
-    width: 500px;
+    width: 540px;
     height: 30px;
     font: 16px arial,sans-serif;
 }
@@ -155,5 +155,38 @@ div.main {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    font-family: arial,sans-serif;
+    line-height: 40px;
+}
+
+#bottom {
+    line-height: 35px; 
+    width: 100%;
+    display: block;
+}
+
+#bottom #left a {
+    float: left;
+    padding-left: 27px;
+}
+
+#bottom #right a {
+    margin-left: 27px;
+}
+
+p {
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    text-align: left;
+    margin: auto;
 }
 
