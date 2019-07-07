@@ -41,11 +41,14 @@ a:hover {
     width: 100%;
     position: fixed;
     display: block;
+    padding-top: 16px;
 }
 
 body {
     position: absolute;
-    margin: 8 0 0 0;
+    margin: 0 0 0 0;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
@@ -74,3 +77,83 @@ footer {
     background-image: -o-linear-gradient(top, #1266f1, #1a65e3);
     background-image: linear-gradient(to bottom, #1266f1, #1a65e3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1266f1, endColorstr=#1a65e3);
 }
+
+div.main {
+    
+    height: 233px;
+    width: 100%;
+    margin-top: 89px;
+    text-align: center;
+}
+
+#image {
+    padding-top: 109px;
+}
+
+.search-bar {
+    position: absolute;
+    width: 100%;
+    top: 311px;
+    text-align: center;
+}
+
+#search-bar-form {
+    height: 44px;
+    width: 582px;
+    display: flex;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#search-form {
+    margin: auto;
+    border: none;
+    width: 500px;
+    height: 30px;
+    font: 16px arial,sans-serif;
+}
+
+#search-form:focus {
+    outline: none;
+}
+
+#search-bar-form:hover, #search-bar-form:focus-within {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.buttons {
+    width: 571px;
+    height: 70px;
+    margin: 70px auto;
+    padding-top: 14px;
+}
+
+#button-group {
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+#button-group:hover {
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
